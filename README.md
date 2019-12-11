@@ -8,3 +8,5 @@ WEB page was done in educational purpose by Elizaveta Demchenko.
 
 SCREENSHOTS:
 ![main page](https://i.imgur.com/jUKJVo8.png);
+![music part](https://i.imgur.com/5lEfaUo.png);
+![shop part](https://i.imgur.com/cPUGLO3.png);
