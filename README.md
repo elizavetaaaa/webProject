@@ -7,4 +7,4 @@ https://elizavetaaaa.github.io/webProject/
 WEB page was done in educational purpose by Elizaveta Demchenko.
 
 SCREENSHOTS:
-![MAIN PAGE]("https://i.imgur.com/jUKJVo8.png")
+![MAIN PAGE]("https://i.imgur.com/cPUGLO3.png")
