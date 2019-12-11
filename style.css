@@ -1,0 +1,456 @@
+.space{
+  margin-bottom: 27px;
+}
+ 
+
+  .navbar {
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 0;
+    background-color: white;
+    border: 0;
+    font-size: 15px !important;
+    letter-spacing: 4px;
+    opacity: 0.9;
+  }
+  
+  #nav{
+    background-color: black;
+
+  }
+
+ .carousel-inner img {
+    -webkit-filter: grayscale(90%);
+    filter: grayscale(90%); /* make all photos black and white */ 
+    width: 100%; /* Set width to 100% */
+    margin: auto;
+  }
+  body {
+    font: 400 15px/1.8 Lato, sans-serif;
+    color: #777;
+  }
+
+  h3{
+    text-align: center;
+    margin-top: 10px 0 10px 0;
+    letter-spacing: 10px;      
+    font-size: 20px;
+    color: #111;
+  }
+  .stText{
+    text-align: center;
+    margin-top: 30px;
+    font-family: "Avantgarde"," TeX Gyre Adventor", "URW Gothic L", sans-serif;
+    font-size: 15px;
+    color: #111;
+    line-height: 200%;
+
+  }
+
+  #queen{
+    margin-top: 30px;
+  }
+
+  .composition{
+    margin-top: 50px;
+    
+    width: 100%;
+    display: inline-flex;
+  }
+
+
+  h4{
+    margin-top: 30px;
+    letter-spacing: 10px;      
+    font-size: 20px;
+    color: white;
+
+
+  }
+
+
+  .row-eq-height {
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+}
+.row-eq-height > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+}
+.translucent > div {border: solid 40px white; background: white;}
+/*card styling*/
+   /* Three columns side by side */
+
+/*.container1, .container2, .container3 ,.container1{
+  display: inline-block; 
+}*/
+   .card1,.card2,.card3,.card4{
+    width: 200px;
+    height: 250px;
+    
+   }
+
+   
+.card1:hover {
+  box-shadow: 0px 0px 30px 0px black;
+  background-color : #FFF5EE;
+}
+
+.card2:hover {
+  box-shadow: 0px 0px 30px 0px black;
+  background-color : #FFF5EE;
+}
+.card3:hover {
+  box-shadow: 0px 0px 30px 0px black;
+  background-color : #FFF5EE;
+}
+.card4:hover {
+  box-shadow: 0px 0px 30px 0px black;
+  background-color : #FFF5EE;
+}
+
+.card-img-top{
+  margin-bottom: 3px;
+  -webkit-filter: grayscale(90%);
+    filter: grayscale(90%); /* make all photos black and white */ 
+    
+
+}
+.btn {
+  width: 100%;
+  background-color: #D3D3D3;
+  letter-spacing: 3px;
+  border: none;
+  color: black;
+  padding: 10px 10px;
+  font-size: 25px;
+  cursor: pointer;
+  border-radius: 10px;
+  display: block;
+  box-shadow: 0px 0px 10px 0px #000000;
+
+}
+.btn:hover {
+  background-color: #FAFAD2;}
+
+#fr{
+  height: 50%;
+
+}
+  
+/*card styling*/
+
+
+
+/*first modal style*/
+.modal-content{
+  color : black;
+  background-color: #F7EEEE; 
+  
+  background-image: url("http://onlineguitarlessons.co.uk/wp-content/uploads/2017/06/Brian-May-400x265@2x.jpg");
+   height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-filter: grayscale(90%);
+    filter: grayscale(90%); /* make all photos black and white */ 
+
+}
+.modal-title{
+  color :black;
+  font-weight: bold;
+}
+.modal-body{
+  background-color: #F7EEEE; 
+  opacity: 0.6;
+}
+
+.modal-footer{
+  height: 50px;
+  font-weight: bold;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+/*first modal style*/
+
+/*secnd modal style*/
+.modal-content1{
+  width :80%;
+  color : black;
+  font-weight: bold;
+  background-color: #F7EEEE;
+  padding-right: 20px;
+  padding-left: 20px; 
+  
+  background-image: url("https://o.aolcdn.com/images/dims?quality=85&image_uri=https%3A%2F%2Fo.aolcdn.com%2Fimages%2Fdims%3Fcrop%3D2199%252C1561%252C0%252C468%26quality%3D85%26format%3Djpg%26resize%3D1600%252C1136%26image_uri%3Dhttps%253A%252F%252Fs.yimg.com%252Fos%252Fcreatr-images%252F2019-11%252F5c58ecb0-06cf-11ea-bd9e-ad4cc6a3c13d%26client%3Da1acac3e1b3290917d92%26signature%3D88ea59cddb201c4d95299d6384db30e5849424be&client=amp-blogside-v2&signature=abee556a590156d88b459651361f98f7fee57c1a");
+   height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+
+}
+.modal-title1{
+  height: 50px;
+  padding-top: 20px;
+  color : white;
+  font-size: 20px;
+  font-weight: bold;
+}
+.modal-body1{
+  background-color: #F7EEEE; 
+  opacity: 0.6;
+  padding: 10px 10px 10px 10px;
+  
+
+}
+
+.modal-footer1{
+  margin-top: 20px;
+  height: 50px;
+  font-weight: bold;
+}
+/*secnd modal style*/
+
+/*third modal style*/
+.modal-content2{
+  width :90%;
+  color : black;
+  font-weight: bold;
+  background-color: #F7EEEE;
+  padding-right: 20px;
+  padding-left: 20px; 
+  
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/5a/Queen_And_Adam_Lambert_-_The_O2_-_Tuesday_12th_December_2017_QueenO2121217-47_%2839066610085%29_Cropped.jpg");
+   height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+
+}
+.modal-title2{
+  height: 50px;
+  padding-top: 20px;
+  color : black;
+  font-size: 20px;
+  font-weight: bold;
+}
+.modal-body2{
+  background-color: #F7EEEE; 
+  opacity: 0.6;
+  padding: 10px 10px 10px 10px;
+  
+
+}
+
+.modal-footer2{
+  margin-top: 20px;
+  height: 50px;
+  font-weight: bold;
+}
+
+/*third modal style*/
+
+/*forth modal style*/
+.modal-content3{
+  width :90%;
+  color : black;
+  font-weight: bold;
+  background-color: #F7EEEE;
+  padding-right: 20px;
+  padding-left: 20px; 
+  
+  background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEhUTExMVFhUXGBcXGBgYFxcVFxgXGBcXFxgXFxgdHSggGholHRcXITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OGhAQGy0mHyUtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIAPEA0QMBIgACEQEDEQH/xAAbAAACAwEBAQAAAAAAAAAAAAACAwABBAUGB//EADkQAAEDAgMFBgQFAwUBAAAAAAEAAhEDIQQSMQVBUWFxEyIygZGhscHR8AZCUmLhFHKCFSMzU5Ki/8QAGgEAAwEBAQEAAAAAAAAAAAAAAQIDBAAFBv/EAC4RAAICAQQBAwIFBAMAAAAAAAABAhEDBBIhMRMiQVEygQUUQnGRYaGx4SMzUv/aAAwDAQACEQMRAD8A00mFxnct7LJVIwrNSVqPsaGBSUEqi5ccHKByrOhLlwQXlJeUxxSnlcMimqOCgcoBOi4IACqFqo4WT3nBo9/RZcZXa0lrYI/VrKnPJGPLGjy6Qp4SntT2uDp+/RE/DGCRcIKal0M1RhISyE16U5TYrZUKQoSopiMEhLcE0oHKckKxRCrKjKFSkSkCWpTmpqW5TZGQtzUuE4hCgSaFx9wor8laIp7TNcog5Zy+6IOXtHqUPDlWZKa5WHLgUG4oSglQlcdRHFJcUbiluXDIKncgJ2O2hTpGKYk6E8DyKqjVFNufeTlHLifvivOYivJKxanM4+mIsmkrZ0DjjJJMz6rG+tJss0ogFhbb7Fedvo0sqHinUsU4GxWAPTWvTRk0NHL7G0vlLISmuWgQQfv73rTjyblTLPlWJcpKJwQQnZJkKoqFUVNiMEoCjKAqchGDCBwTELgpsk0BlQkI0JCArQuDwURwou+wlHoi66LMlE3UDl7CZ6Q8OV5koOUzo2AbnULkiVMy6w0G5ypAXKZkLOL2hZjL3MmDoNy8/Uddd2phs8G+mg1m/Fc3F4AtJiTGsi46j5heVqJf8nJHUJ0kZqbSTA1K3f0bhr1R7GwuZ9xYLu13NaO9os0pU6RGKo84aXDQIGhdM4mkCYBvv09lmqtbMjemi3ZWNWKARs0ITH0IaHcTHRKDlpjFxaNdqigVJQEqKu4zthFCVFEr5AAVSIhCQpsVopVCJVCURoBCjIQFKI0VmUUUQEo7DnXUBWfOiD16UZm9MeHIs6z5lZcn3DDcyGUsOV50HI4bmUzJWZVmXbjjdg6gkeY+Y+BWinRdMvcTItyncuVTBJganTruWynWqCA9l/1aHTeF5urxvduRPKbMI+EWKpBwSWq3+yxvsgcfEUXueGRv1A3cVrxmyhTplwJJAn4BacPicrrD6La6qHWItDtdNJ+SpBuU1EKuzzeYhoEkzcjglkpmMrZnuI0JMdNyRK9B8cFmwpUlDmUBSMQKVeZLJUBQsFhlCrBVSg2cylFCVRKVispxQEoigckEZSiqfuyiJM2tcrzJbzdUHK6kalI0NcpmSgUTSqqRROxhcqzIZT2YSodKbyP7XfRGwt0KzKZlpZsusbZDPMgfFa2bIDb1Xhv7Ww53mdB7rvUTlmhHlsVsLD56onRvePlp7wtm1XS50fcLVh6rGsLaTY4kmSeErFVbKxanMn6F7E/Ip+pGfD4mUWJxMCBclYqrCO8PTkhGKaddVBxvlAfBdfEGIcD5QR9VTw1rAJdnvMyIB5Hl8UkU2PddxHNBVfJWnBGluZSFVYJKElQoZVGzmEFFQKuUopUqpUKGUrYGGHKw5KlWELBYyUJKpWVxzBKFyNCQgxWCooouoWhpfdEFi7bmm06iawY52aZW7BYIvu5zWN1kkSR+xurvJVsPZprvjRjbvdwHDqdAu9jMHSLjlYI0k3cYtqUZZVjjuZRzfUTINpU6Iiiy+md3i6zuWbEbSqO8VR0DmVzsaAypkGgI+SS95dYb6hHkJn4LSp7o2jwMubI5NSZ1aWMcbEkkcdfVPz2XIpVRnI4mPK3zWxtS8H7CFgc77NAfBsUw4kHWxWbOl1B5qeTFGfZbFnlB8CsXWgwk06QyucRJ0HKVpZTabGR1/lbBQaKboiDqq4NG6s9XFqIy7Rw2tA0VynPw+9pDuQnMPL6LMSotOPZotIIoSoHKiUDiwoXIFTnJWxWy3OVSgJQyUojY3Mqa9LzK2lcLY4FXKBpVErhrGSqJQl3NVK4Jc8lFWZRcDg5Rq3K6Oz6bqjmsaJc4wFyKVNznhrQS4mABqSvomx9ntwlO5Dq7x3juYD+VvzKedRW59GHTbpHQpU20aYosOl3H9Tt5WatXACovWHFleXObyStm98HJ2rU/3M3GD6LJ2uRgcdxc7zyxHq5FtesLX4pWEc15DneFsxzdJPnv9AvWwcwR4WpSjkZu2dhy0ZneN1+nALTiHgX3iCPmErtnHS3XVCRzkq9fBmU+bH0370baiy0jARhyA6fJ1KT1oLguVSrFaw9ehhnuRsxzOdtJpD3FutvOyzvOduca7+fNdTFN/N5eqxYimKYBF2uMdJn5rM4XOUH0+f2PVUlsi/szACqLkLtSOCElYHwxt3AyVTihBVEpWCywUJVqigKRRqtVvXAYQKhKoKQuCWXKZkKGVxzYzMolqLqF3Hf2Xs9tDSC8+J3ybwHxWt9RKfXE6rLWxQCwScpvkpFKMaXRt7aFyNq7Qiyz4zagC4+Ll1MVZ1eWx0aD81ow6dt2zNlzpJ12KxeKL3arZhazWiJk8TYAcgLrPsukYLgY3C0j0XTY2qdDRPldejGNdHi5Mu58j6Dxuk8TEenALTu0WdrK293o0IyDvLj1TkbGAqZkkOU7RAoh2ddGjUsFx2mbrZSrRCrintZpxOh+1asMA8/dv1QUqncg7ifSJWDbWJa6IdoD6yPohpYqaY6j5j4pZZF5r9jfjampR+4vGmH24D4JWZM2qIcDuICx51lyO5tr5Lye2TQ8vUDkgORZkgN41zlC5Jc9VnQBvHhyhKBpV5lw12MarlLzIg9AKZcqnKpQuK4LYUqkKiPBM9HisMCdFxcfgakSw+R+q9VXAlZ30QV58MjiysoqSpnznFU6jT32uHw9VooAupho/wCz4gD5L3T8Gsg2S0EHKNeELbDWR90Yno2m6kc+jTDQABYI3UWHUDquq7CNI8OU8RPwlIdgzx9leOqxfJgn+H5k7VP9v9nOdh4uC7ycUsOd+49VtdgnbjHQrFVpO/M+yupRl9JmljnjdTVAuqIQ9A5g0F0WXcgFMPt46pTsROpWbEVAFmNVBsvHo0YmpK6LHjLkH5WtPnqfiuRTY4mcpjoU3OQZNjv3a6qcnxXybMEnDlnW2l3qTTvb9/RcjMvQYpsiNzmAj0heYcVHG7Rr1Lpp/JoY5HmWUOTGvVKIRmMc5RhQFWxcG+R4KIFKCIOSlEw5VtKUXLr4HZQq0g9riHSZkWtwStpK2PC5Okc/MqBkrpDYFSRLm5TcuE/DigxLaTXNa0EQRJOpvdLvT6H2urY7/Rf3+38q10e2d+qn9+aiTe/lFLxnHO1TPiCc3aJO8LxOKruDzBIuqbtB/Geqs9In0eTD8Q+Ue9p7Q5p1PaQ3rwLdqVN0ImbYqcvvzU3o2VX4hjPojNpMi5hHTqNfo5fPX7VqTujouhsXbDu1aHQATEiySWkklaKw12OTo9k6hGqxYvDZrjUe66uMeIEBYao0I3hSwZHGVmrJCOSLhLpnI7MDVZ8TUawE2lPrh2YgA9d3qgbQAMnvO9h0+q9OeeMVweBi0eSWRxfS9znYbZrn955yjh+b+F0qGGYzwtHU3PqmEqpWGeSUj28eGGNcIOUNekHCDdZ8RimtifTekf1RfYWHAanzXRg+wzyxvazo03h1JsGTTOU9N3tC83ivG7qV62ns1tNhDR4ruuTdeY2lSIeTuN/vzVcMk5OiOpUvEm/YzBG0pQKOkxzjABJ5X0ursxKQ6ndMhSjhnXkhsCYJk84aATpfyWii1kHxOIvc5GniBYknfu0KVmiNmYOTxRcRMQOJsPdHSr2IAAOoyi9te8b6cCqFTdmkuE8SHCYBnlPqlbHTXyUzDiCcxMG4aOPM/RdPZOL7Nwbox3Ek/wCQOm7cuTTfe/nvseA3LtbP/D9V4D3HI3UZteNmpMjVeofHJ36Tu4nFBvPSeYOjuq5tenTql7TYtuD66p20YFgZ7keY0Xndo4pwc6NHAX6LPjhfRoyTUVyN7If9zfVRcafuytavG/kyeaPwcrGXcepW7ZGw3VhmJyNtBIkuvePqlbNwna1YPhFz04ea9j2ifPmcPTHsw6LSLJ6p9GPC7FoMHhzHi6/totjKbRo0DoAFWZSVhlKUu2e1CEIfSqH23gLPWwlN35R1AhGCrzJeV0X4a5R0KeKApEvvAieizuxjQ2nNi5zRHCf4QVXDsw0m5Oh5lZdoMBrMbuYCfOEYxXuQyWuUNxjmFzgHCQMwWSm7MARvXFxRJzVJsTlHQKbJx2Uw98N/9dQAFqWC12YZaypVR2wmGmbGLH7MLl/6oxl2NLjxdZo/xGvmfJKbXeanaVSbEAzAIMGBFoAvYWCEsNPh8HR1dpblyVUdL3tO+3QjT75rd+HaYNTvaMEnqsmJLXOcQDIg20LdJvHFum4qOf3nRZtRskDvEHcDPB0X4FUauNEd6U775PWVsfSkNLxJ9xx6c15wYxhzHJnAM5SJBbvMjSO76rmvfLYMksMXMWO4DSAZ4eJE6u4kOmRdxGg/fF9/LikhhUSr1UmNxVRrg0imxmoIEid4McLxruV5iTmBgEZogNaSPE2w46AjestOZLePnJFx981so7OeR3oaJmXW9hf4KjpdkouU3wjO92V0iI1tOh1HxGqZSzFwa1uYgzYFziDFuMR81uZTw7B3nZyNx7o46D6ocTtyG5KQDRyEBLub6RTYo8ykJGFcDcgQd5+QQlzG6XPoFgdiCdSo0p9j9weaP6V/Js/qIII3bty3P/EFYiMy5BKJpQcIvtHLJL5Nzto1DGms6a9VkrVS43UzoSUVFL2Gc21ywFFc8/ZRMTNX4eoxmP3aF2JXO/D2XtXMOhzgf3Fpy/8A1C3rLn+tltHJeJFyrCjBJTDTUDWiALLtbGGkxuXxvkg/paDEjmTPSFrCw/iKkHUWvn/jJB/teZHuD6p8dOSsTUzksb2nDZj3B2YmTMkm6dV2xJc6ZJEWtqsDoIMAnnuWUs5joFvWOL7PF/MTiqTNOKxWZrWxAHueKzsF95VBhOgThSjU+QVOERblJ2zdh39wbplpA1Jjuk+adSIMkkCRkdmkkkEX5HQzO4rHQIgtiARYncdf4QGqLzJ0PQjn6+qlt5NG+kjeK4DZcCSIabxAG7naRfgk9oWgtBiJ36g69RYJFSuTPPXrxScyO0R5DQ+qJnWRfqRf3ugZXG8W5JDyhlPtF8jOlS2m5tmhrR0E+qF+LcTcrE1G1LsSKeab4sMmTcq5VQrIXAsitrkMKLhkx4KKUppREoUVUgw5TMlhQlckHfwHnURZAoq+Ji+QvDuLapP7vcFemw1MPeBLRmi7jAE7ydwXkcTVMkcHSPO1zwsF29lYnMwcWmPJZNTD9Q2gycbRWJ2jlrFjntDAS3MwZsw0DgeG9P2ZinGnldJc2xM6jUGddEj8Qi7amVjZEXk24x7LPgq8Fhzk5u4+0AGxbA4XjyKG1Sx2kFZJQzVJnXcTvIH3xP0R02NdLSCc4LZO6dDfgYNuCWG8Bfif5ujLo1PkPuVnf9DfVqmeQxlItcWvJlpII4EW8kFJpOgA5ldv8UULtqgQKgvvOdlnetj5rh0iZXowlujZ4WSOybiaZgRJPshJO6ArJCB07tVwWyrb10sCBVpOpiMwM9eHuuVlJ1sn4WqWEFtiEJxtcdjYp1LnolVkWi6Uu+cbQqAdo2HdCR6i6ttLDGzYJJiA13xMJPLXaZRaZP6ZI86VQCfjaQY9zRoEkKydqzO002mMaEYSgUwOQCmGAoQoHKFyUayIcyhKBGjrGhyIuS1JXDKQYKfSES4pNBuYwiruvG4KkFtW45yvgnbFRKUS75B4BqOAeZ0JvyvqtWxHFjy07/noVgxfiPVXhMSWkCxHO8dDMhCcbi0RwZNkkz1uKotfSdMkgcJGoIm4jTVcLDMqlrgGEBwto2HAyHXuYv6ldihiZaDBHGDmH1HunggxcclijNwVHrTwxyyUroFjTAknTomBqINRNaoNmxRF42h2mGqgn/jAqg9CGuHmHewXkSF6rbOJFOk6mL1KkAgatYCHX5kgW4SvKO0WzT3tPJ1rjv4CiyfRwTnGNI1JtCDBYY1DG4anl9UzaWO/JTs0Wkb1Vt3SIRUdu+fX+Ta3A0RZ1Qk8i0fIq/8ATqR0qOH/AJd8wuBqiau8Uv8A0d+Yh1s/ud2pgqIM9rruED5lLqYylSH+2Jdx191yXJZC7xX2zvzNL0RSCe+SSdTdUEKgVaIWNaUQKBqtANjJUQBE1A6ywFCr0VIBTCKpUVbNUUhrNQ7reZWWUVSoT8kqU85Jul0gRtdjLK0tRToexeK8TupSE3FHvO6lKVDMdvYuNvB3rs4mm0NNRjB4C18TLSZioADpcA8IuvI4bfGto9V1cDtVzLHUaFZsmJ3uib8Gpi4+Of2YdLbjhYBro3mfkQjqbarFhc0tbBAho7xkG4JkwI47wmV8LRq95pyOP6Yg9W2jy9FndsY/rEcpSrxe6HlHUdJ2v6MwtxZDs4JzazN54zxUweFc90xDZudwWn+kpU/G6eX8LPjNokjKwZW+5VU7+n+TO4KPOR/YdjsW1rezpWH5jxXOptkwglasHSmZMAe6pGKiZ82Vyds0MyjQfyoaYP5T5JVQ3hoJ9h1KLD0nOOp/x+qYgvkGrRI3GFmcuzVwwjQ+Z/lcerYlApGVgK0GZXKI4wIkAKkpTrDCMJbSjCDOISqBsqe5UDZcFBSpKAFSURrGgoQEMqw5AYu6pSVS47gDFeI9SlHRRROQNWB8XogxG7p9VaiPsL+odgl0qvhUUWbJ2enp/wDrZw6viKW1RRXR5z7YYWql4T1+iiiIkuiV/AfJdPCeFvRRRFE5/Sg6+h+964VfVRRKUxiQjaoouZUa5C76K1EDiN+/VNUUQZwk71G6K1ERkUETdPJRRccRqFqiiAzKUUURAf/Z");
+
+   height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+
+}
+.modal-title3{
+  height: 50px;
+  padding-top: 20px;
+  color : white;
+  font-size: 20px;
+  font-weight: bold;
+}
+.modal-body3{
+  background-color: #F7EEEE; 
+  opacity: 0.4;
+  padding: 10px 10px 10px 10px;
+  
+
+}
+
+.modal-footer3{
+  margin-top: 20px;
+  height: 50px;
+  font-weight: bold;
+}
+/*forth modal style*/
+
+
+#strong{
+  font-style: italic;
+  font-size:20px;
+}
+
+.music{
+  width: 80%;
+  height: 50%;
+}
+
+.jumbotron{
+  margin: auto;
+  
+  
+  background-image: url("https://d3i6fh83elv35t.cloudfront.net/newshour/app/uploads/2015/10/Queen-A-Night-At-The-Odeon-Lead-Press-Image-1-1024x679.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  width: 50%;
+  padding: auto;
+  
+  margin: auto;
+}
+#mus{
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  margin: -top: 20px;
+}
+#mus1{
+  color: white;
+}
+
+
+
+
+.cards-list {
+  z-index: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 30px auto;
+  width: 280px;
+  height: 300px;
+  border-radius: 40px;
+  box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.card .card_image {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+}
+
+.card .card_image img {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+  object-fit: cover;
+}
+
+.card .card_title {
+  text-align: center;
+  border-radius: 0px 0px 40px 40px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: -80px;
+  height: 40px;
+}
+
+.card:hover {
+  transform: scale(0.9, 0.9);
+  box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
+    -5px -5px 30px 15px rgba(0,0,0,0.22);
+}
+
+.title-white {
+  color: white;
+}
+
+.title-black {
+  color: black;
+}
+
+@media all and (max-width: 500px) {
+  .card-list {
+    /* /*если экран маленький,используем column direction вместо raw*/
+    flex-direction: column;
+  }
+}
+
+
+
+
+.shop1{
+  color: white;
+  text-shadow: 2px 2px 8px #FF0000;
+}
+
+.shop2{
+  color: #E6E6FA;
+ text-shadow:  2px 2px 8px black   ;
+}
+#fun{
+  text-align: center;
+}
+
+
+footer {
+    background-color: #2d2d30;
+    color: #f5f5f5;
+    padding: 32px;
+  }
+  footer a {
+    color: #f5f5f5;
+  }
+  footer a:hover {
+    color: #777;
+    text-decoration: none;
+  }  
+
+  .link1{
+    margin-right: 10px;
+  }
+  .lst{
+    margin-bottom: 20px;
+  }
+
+  .greet{
+
+    background-image: url("https://i.pinimg.com/originals/25/2b/c0/252bc05cc324a65ddcee426677e190a1.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  }
+  #myModal0{
+    width: 30%;
+    height: 30%;
+  }
