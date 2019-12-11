@@ -5,3 +5,6 @@ Here you are able to find some information about band, its memebers and their be
 <!--follow the link below to have a look-->
 
 https://elizavetaaaa.github.io/webProject/
+
+
+was done in educational purpose by Elizaveta Demchenko
